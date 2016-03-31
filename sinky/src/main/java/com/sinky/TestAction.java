@@ -20,6 +20,7 @@ public class TestAction {
 	   @RequestMapping("/index")
 	   public ModelAndView index()
 	   {
+	       System.out.println("hello world");
 		   return new ModelAndView("index");
 	   }
 }
